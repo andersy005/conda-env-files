@@ -6,6 +6,7 @@ This GUI application must be launched from a console because it requires command
 
 ### 2. Expression Evaluator
 This application is a complete dialog style application. It has no menu bar, and no toolbar or status bar.
+![alt tag](https://github.com/andersy005/python-apps/blob/master/Expression_Evaluator/calculate.png)
 
 ### 3. A currency Converter
 The Application downloads and parses the exchange rates from the Bank of Canada.

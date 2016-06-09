@@ -9,5 +9,6 @@ This application is a complete dialog style application. It has no menu bar, and
 
 ### 3. A currency Converter
 The Application downloads and parses the exchange rates from the Bank of Canada.
+![alt tag](https://github.com/andersy005/python-apps/blob/master/Currency_Converter/currency.png)
 
 

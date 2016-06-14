@@ -13,7 +13,8 @@ The Application downloads and parses the exchange rates from the Bank of Canada.
 ![alt tag](https://github.com/andersy005/python-apps/blob/master/Currency_Converter/currency.png)
 
 ### 4. Pen Properties
-A graphics application that lets the user set some pen properties, for example, the pen's width, style, and
-whether or not lines drawn with it should have beveled edges.
+A graphics application that lets the user set some pen properties, for example, the pen's width, 
+style, and whether or not lines drawn with it should have beveled edges.
+
 ![alt tag](https://github.com/andersy005/python-apps/blob/master/Pen_properties%20graphics%20app/penProps.png)
 

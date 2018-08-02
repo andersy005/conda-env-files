@@ -3,75 +3,51 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - appdirs=1.4.3=py_1
-  - arrow-cpp=0.9.0=py36h70250a7_7
-  - asciitree=0.3.3=py_2
-  - asn1crypto=0.24.0=py_1
-  - atomicwrites=1.1.5=py36_0
-  - attrs=18.1.0=py_1
-  - backcall=0.1.0=py_0
-  - black=18.6b2=py_0
-  - blas=1.1=openblas
-  - bleach=2.1.3=py_0
-  - bokeh=0.12.16=py36_0
-  - boost-cpp=1.67.0=h3a22d5f_0
-  - bottleneck=1.2.1=py36h7eb728f_1
-  - bzip2=1.0.6=1
-  - ca-certificates=2018.4.16=0
-  - cairo=1.14.10=0
-  - certifi=2018.4.16=py36_0
-  - cffi=1.11.5=py36_0
-  - cftime=1.0.0=py36_0
-  - chardet=3.0.4=py_1
-  - click=6.7=py_1
-  - cloudpickle=0.5.3=py_0
-  - colorcet=1.0.0=py_0
-  - cryptography=2.2.1=py36hdffb7b8_1
-  - curl=7.60.0=0
-  - cycler=0.10.0=py_1
-  - cython=0.28.4=py36hfc679d8_0
-  - cytoolz=0.9.0.1=py36_0
-  - dask=0.18.1=py_0
-  - dask-core=0.18.1=py_0
-  - dask-glm=0.1.0=0
-  - dask-ml=0.7.0=py36h470a237_0
-  - dask-searchcv=0.2.0=py_0
-  - dataclasses=0.6=py_0
-  - datashader=0.6.6=0
-  - datashape=0.5.4=py36_0
-  - dbus=1.13.0=h3a4f0e9_0
-  - decorator=4.3.0=py_0
-  - distributed=1.22.0=py36_0
-  - entrypoints=0.2.3=py36_1
-  - expat=2.2.5=hfc679d8_1
-  - fastcache=1.0.2=py36_0
-  - fasteners=0.14.1=py36_2
-  - fastparquet=0.1.5=py36_0
-  - flake8=3.5.0=py36_0
-  - fontconfig=2.12.6=0
-  - freetype=2.8.1=0
-  - gettext=0.19.8.1=0
-  - glib=2.55.0=0
-  - gmp=6.1.2=hfc679d8_0
-  - gmpy2=2.0.8=py36_1
-  - graphite2=1.3.11=hfc679d8_0
-  - graphviz=2.38.0=7
-  - gst-plugins-base=1.8.0=0
-  - gstreamer=1.8.0=1
-  - h5netcdf=0.6.1=py_0
-  - h5py=2.8.0=py36h470a237_0
-  - harfbuzz=1.7.6=0
-  - hdf4=4.2.13=0
-  - hdf5=1.10.1=2
-  - heapdict=1.0.0=py36_0
-  - holoviews=1.10.7=py_0
-  - html5lib=1.0.1=py_0
-  - icu=58.2=hfc679d8_0
-  - idna=2.7=py_1
-  - imageio=2.3.0=py36_0
-  - importlib_resources=1.0.1=py36_0
-  - importnb=0.3.2=py_0
-  - ipykernel=4.8.2=py36_0
+  - arrow-cpp
+  - asciitree
+  - black
+  - blas
+  - bleach
+  - bokeh
+  - boost-cpp
+  - bottleneck
+  - bzip2
+  - ca-certificates
+  - cairo
+  - certifi
+  - cffi
+  - cftime
+  - chardet
+  - colorcet
+  - cryptography
+  - curl
+  - cycler
+  - cython
+  - cytoolz
+  - dask
+  - dask-core
+  - dask-glm
+  - dask-ml
+  - dask-searchcv
+  - dataclasses
+  - datashader
+  - datashape
+  - dbus
+  - decorator
+  - distributed
+  - fastparquet
+  - flake8
+  - graphite2
+  - graphviz
+  - gst-plugins-base
+  - gstreamer
+  - xarray
+  - keras 
+  - holoviews 
+  - geoviews 
+  - imageio
+  - importnb
+  - jupyterlab
   - ipympl=0.2.0=py36_0
   - ipython=6.4.0=py36_0
   - ipython_genutils=0.2.0=py_1
@@ -151,7 +127,7 @@ dependencies:
   - pexpect=4.6.0=py36_0
   - pickleshare=0.7.4=py36_0
   - pillow=5.2.0=py36_0
-  - pip=9.0.3=py36_0
+  - pip
   - pixman=0.34.0=2
   - pluggy=0.6.0=py_0
   - prompt_toolkit=1.0.15=py36_0
@@ -159,20 +135,20 @@ dependencies:
   - pthread-stubs=0.4=h470a237_1
   - ptyprocess=0.6.0=py36_0
   - py=1.5.4=py_0
-  - pyarrow=0.9.0=py36hfc679d8_2
+  - pyarrow
   - pycodestyle=2.3.1=py36_0
   - pycparser=2.18=py_1
   - pyct=0.4.3=py_0
   - pyflakes=1.6.0=py36_0
   - pygments=2.2.0=py_1
-  - pygpu=0.7.6=py36_0
-  - pymc3=3.4.1=py36_0
+  - pygpu
+  - pymc3
   - pyopenssl=18.0.0=py36_0
   - pyparsing=2.2.0=py_1
   - pyqt=5.6.0=py36h8210e8a_6
   - pysocks=1.6.8=py36_1
   - pytest=3.6.2=py36_0
-  - python=3.6.5=1
+  - python=3.7
   - python-dateutil=2.7.3=py_0
   - pytz=2018.5=py_0
   - pyviz_comms=0.1.1=py_0
@@ -183,10 +159,10 @@ dependencies:
   - qtconsole=4.3.1=py36_0
   - readline=7.0=0
   - requests=2.19.1=py36_0
-  - scikit-image=0.14.0=py36hfc679d8_1
-  - scikit-learn=0.19.1=py36_blas_openblas_201
-  - scipy=1.1.0=py36_blas_openblas_200
-  - seaborn=0.8.1=py_1
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - seaborn
   - send2trash=1.5.0=py_0
   - setuptools=40.0.0=py36_0
   - simplegeneric=0.8.1=py_1
@@ -225,7 +201,11 @@ dependencies:
   - libgcc-ng=7.2.0=hdf63c60_3
   - libgfortran=3.0.0=1
   - libstdcxx-ng=7.2.0=hdf63c60_3
+  - gdal
+  - geopandas
+  - holoviews
   - pip:
-    - msgpack==0.5.6
+    - msgpack
+    - version-information
 prefix: /home/abanihirwe/opt/miniconda3/envs/ds
 

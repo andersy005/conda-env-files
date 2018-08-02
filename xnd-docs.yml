@@ -1,0 +1,12 @@
+name: xnd-docs
+channels:
+  - QuantStack
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - ablog 
+  - jupyterlab
+  - numpy  
+prefix: /home/abanihirwe/opt/miniconda3/envs/xnd-docs
+

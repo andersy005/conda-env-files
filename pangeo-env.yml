@@ -5,51 +5,52 @@ channels:
   - intake
   - default
 dependencies:
-  - python=3.6
-  - nb_conda_kernels
-  - metakernel  
-  - numpy
-  - scipy
-  - pandas
-  - xarray
-  - matplotlib
+  - bokeh
+  - datashader
   - dask
+  - dask-jobqueue
+  - dask-ml
   - distributed
   - gcsfs
-  - intake
-  - intake-xarray
-  - scikit-image
-  - scikit-learn
-  - dask-ml
-  - bokeh
-  - holoviews
   - geoviews
-  - datashader
-  - hvplot
-  - netcdf4
-  - zarr
-  - numcodecs
-  - python-blosc
-  - lz4
-  - nbserverproxy
-  - jupyter
-  - ipywidgets
   - graphviz
-  - jupyterlab
-  - jupyter_contrib_nbextensions 
-  - jupyter_nbextensions_configurator
+  - holoviews
+  - hvplot
+  - intake
   - iris 
   - iris-sample-data
   - importnb
-  - yt 
+  - intake-xarray
+  - ipywidgets
+  - jupyter
+  - jupyterlab
+  - jupyter_contrib_nbextensions 
+  - jupyter_nbextensions_configurator
+  - lz4
+  - matplotlib
+  - metakernel 
+  - nb_conda_kernels
+  - netcdf4
+  - numpy
+  - nbserverproxy
+  - nodejs
+  - numcodecs
+  - pandas
+  - python=3.6
+  - python-blosc
+  - scikit-image
+  - scikit-learn
+  - scipy
   - unyt 
+  - xarray
   - xonsh
   - xo
-  - nodejs
+  - yt 
+  - zarr
   - pip:
+     - bash_kernel
      - version-information
      - xonsh_kernel
-     - bash_kernel
 #    - kubernetes
 #    - git+https://github.com/dask/dask-kubernetes.git
 #    - git+https://github.com/xgcm/xgcm.git

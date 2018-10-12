@@ -45,6 +45,7 @@ dependencies:
   - unyt 
   - xonsh
   - xo
+  - nodejs
   - pip:
      - version-information
      - xonsh_kernel

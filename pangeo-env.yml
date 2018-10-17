@@ -28,7 +28,8 @@ dependencies:
   - jupyter_nbextensions_configurator
   - lz4
   - matplotlib
-  - metakernel 
+  - metakernel
+  - mpi4py
   - nb_conda_kernels
   - netcdf4
   - numpy
@@ -38,9 +39,11 @@ dependencies:
   - pandas
   - python=3.6
   - python-blosc
+  - pytest
   - scikit-image
   - scikit-learn
   - scipy
+  - tensorflow
   - unyt 
   - xarray
   - xonsh

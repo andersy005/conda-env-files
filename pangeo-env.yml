@@ -5,12 +5,15 @@ channels:
   - intake
   - default
 dependencies:
+  - autopep8
+  - black
   - bokeh
   - datashader
   - dask
   - dask-jobqueue
   - dask-ml
   - distributed
+  - flake8
   - gcsfs
   - geoviews
   - graphviz
@@ -50,6 +53,8 @@ dependencies:
   - xo
   - yt 
   - zarr
+  - twine
+  - wheel
   - pip:
      - bash_kernel
      - version-information

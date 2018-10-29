@@ -55,6 +55,13 @@ dependencies:
   - zarr
   - twine
   - wheel
+  - sphinx
+  - numpydoc
+  - sphinx_rtd_theme
+  - cmocean
+  - watermark
+  - nbdime
+  - papermill
   - pip:
      - bash_kernel
      - version-information

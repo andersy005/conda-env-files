@@ -16,6 +16,7 @@ dependencies:
   - flake8
   - gcsfs
   - geoviews
+  - python-graphviz
   - graphviz
   - holoviews
   - hvplot

@@ -63,10 +63,13 @@ dependencies:
   - watermark
   - nbdime
   - papermill
+  - awscli
+  - s3fs
   - pip:
      - bash_kernel
      - version-information
      - xonsh_kernel
+     - pympler
 #    - kubernetes
 #    - git+https://github.com/dask/dask-kubernetes.git
 #    - git+https://github.com/xgcm/xgcm.git

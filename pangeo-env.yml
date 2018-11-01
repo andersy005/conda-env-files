@@ -65,11 +65,14 @@ dependencies:
   - papermill
   - awscli
   - s3fs
+  - spyder 
+  - spyder-kernels
   - pip:
      - bash_kernel
      - version-information
      - xonsh_kernel
      - pympler
+     - rmate
 #    - kubernetes
 #    - git+https://github.com/dask/dask-kubernetes.git
 #    - git+https://github.com/xgcm/xgcm.git

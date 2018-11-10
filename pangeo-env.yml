@@ -2,8 +2,9 @@ name: pangeo
 channels:
   - pyviz
   - conda-forge
+  - quantstack
   - intake
-  - default
+  - defaults
 dependencies:
   - autopep8
   - black
@@ -67,12 +68,23 @@ dependencies:
   - s3fs
   - spyder 
   - spyder-kernels
+  - imbalanced-learn
+  - xeus
+  - xtensor
+  - xtensor-python
+  - xeus-cling
+  - xsimd
+  - xtensor-io
+  - fastparquet
+  - pyarrow
   - pip:
+     - pandas-profiling
      - bash_kernel
      - version-information
      - xonsh_kernel
      - pympler
      - rmate
+     - PyQt5
 #    - kubernetes
 #    - git+https://github.com/dask/dask-kubernetes.git
 #    - git+https://github.com/xgcm/xgcm.git

@@ -7,4 +7,6 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager \
                              dask-labextension \
                              @jupyterlab/toc
 
+
+python -m bash_kernel.install
 #EOF

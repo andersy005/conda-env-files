@@ -5,85 +5,85 @@ channels:
   - intake
   - defaults
 dependencies:
+  - aospy
   - autopep8
+  - awscli
   - black
   - bokeh
-  - coverage
+  - cmocean
   - codecov
-  - rasterio
-  - datashader
+  - coverage
   - dask
   - dask-jobqueue
   - dask-ml
+  - datashader
   - distributed
+  - fastparquet
   - flake8
   - gcsfs
   - geoviews
-  - python-graphviz
   - graphviz
   - holoviews
   - hvplot
-  - intake
-  - iris 
-  - iris-sample-data
   - importnb
+  - intake
   - intake-xarray
   - invoke
   - ipywidgets
+  - iris 
+  - iris-sample-data
   - jupyter
-  - jupyterlab
   - jupyter_contrib_nbextensions
-  - jupyterhub
   - jupyter_nbextensions_configurator
+  - jupyterhub
+  - jupyterlab
   - lz4
   - matplotlib
   - metakernel
   - mpi4py
   - nb_conda_kernels
-  - netcdf4
-  - numpy
+  - nbdime
   - nbserverproxy
+  - nbsphinx
+  - netcdf4
   - nodejs
   - numcodecs
+  - numpy
+  - numpydoc
   - pandas
-  - python=3.6
-  - python-blosc
+  - papermill
+  - pint
+  - pyarrow
   - pytest
   - pytest-cov
+  - python-blosc
+  - python-graphviz
+  - python=3.6
+  - rasterio
+  - recommonmark 
+  - s3fs
   - scikit-image
   - scikit-learn
   - scipy
+  - sphinx
+  - sphinx_rtd_theme
+  - twine
   - unyt 
+  - watermark
+  - watermark
+  - wheel
   - xarray
-  - xonsh
   - xo
+  - xonsh
   - yt 
   - zarr
-  - twine
-  - wheel
-  - sphinx
-  - numpydoc
-  - sphinx_rtd_theme
-  - cmocean
-  - watermark
-  - nbdime
-  - papermill
-  - awscli
-  - s3fs
-  - fastparquet
-  - pyarrow
-  - aospy
-  - pint
-  - watermark
-  - nbsphinx
-  - recommonmark 
   - pip:
-     - pandas-profiling
      - bash_kernel
-     - sphinx_copybutton
+     - jupyter-repo2docker
+     - pandas-profiling
      - pre-commit
      - pre-commit-hooks
-     - jupyter-repo2docker
+     - sphinx_copybutton
 #    - kubernetes
 #    - git+https://github.com/dask/dask-kubernetes.git
 #    - git+https://github.com/xgcm/xgcm.git

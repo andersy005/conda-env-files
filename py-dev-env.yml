@@ -56,6 +56,9 @@ dependencies:
   - pyarrow
   - pytest
   - pytest-cov
+  - pytest-cpp
+  - pytest-icdiff
+  - pytest-print
   - python-blosc
   - python-graphviz
   - python=3.6

@@ -58,7 +58,6 @@ dependencies:
   - pytest-cov
   - pytest-cpp
   - pytest-icdiff
-  - pytest-print
   - python-blosc
   - python-graphviz
   - python=3.6
@@ -81,6 +80,9 @@ dependencies:
   - yt 
   - zarr
   - xarray-extras
+  - scrapy
+  - cookiecutter
+  - siphon
   - pip:
      - bash_kernel
      - jupyter-repo2docker
@@ -88,6 +90,7 @@ dependencies:
      - pre-commit
      - pre-commit-hooks
      - sphinx_copybutton
+     - pytest-print
 #    - kubernetes
 #    - git+https://github.com/dask/dask-kubernetes.git
 #    - git+https://github.com/xgcm/xgcm.git

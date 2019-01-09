@@ -80,6 +80,7 @@ dependencies:
   - xonsh
   - yt 
   - zarr
+  - xarray-extras
   - pip:
      - bash_kernel
      - jupyter-repo2docker

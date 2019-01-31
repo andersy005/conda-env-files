@@ -10,7 +10,6 @@ dependencies:
   - basemap
   - BeautifulSoup4
   - black
-  - blackbook
   - bokeh
   - cmocean
   - codecov
@@ -38,7 +37,6 @@ dependencies:
   - intake-cmip
   - intake-xarray
   - invoke
-  - ipyleaflet
   - ipywidgets
   - iris 
   - iris-sample-data
@@ -48,23 +46,22 @@ dependencies:
   - jupyter_nbextensions_configurator
   - jupyterhub
   - jupyterlab
-  - kaggle
-  - keras
   - lz4
   - Markdown
   - matplotlib
   - metakernel
   - mpi4py
+  - mpich
   - nb_conda_kernels
   - nbdime
   - nbserverproxy
   - nbsphinx
   - netcdf4
-  - networkxx
+  - networkx
   - nodejs
   - numba 
   - numcodecs
-  - numpy
+  - numpy>=1.15.0
   - numpydoc
   - pandas
   - panel
@@ -87,20 +84,20 @@ dependencies:
   - recommonmark 
   - s3fs
   - scikit-image
-  - scikit-learn
-  - scikit-learn
+  - scikit-learn>=0.20
   - scikit-plot
   - scipy
   - scrapy
   - seaborn
+  - setuptools=39.1.0
   - siphon
   - skorch
   - sphinx
   - sphinx_rtd_theme
+  - swig
+  - swig 
   - tensorboardx
   - tensorflow 
-  - torch 
-  - torchvision
   - tpot
   - tqdm 
   - twine
@@ -117,11 +114,15 @@ dependencies:
   - yt 
   - zarr
   - pip:
-     - auto-sklearn
      - bash_kernel
+     - blackbook
      - cfgrib
      - fastai
+     - ipyleaflet
      - jupyter-repo2docker
+     - kaggle
+     - keras 
+     - msgpack-python
      - pandas-profiling
      - pre-commit
      - pre-commit-hooks

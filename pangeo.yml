@@ -1,43 +1,57 @@
-name: py-dev
+name: pangeo
 channels:
-  - pyviz
   - conda-forge
-  - intake
   - defaults
 dependencies:
+  - altair
   - aospy
   - autopep8
   - awscli
+  - basemap
+  - BeautifulSoup4
   - black
+  - blackbook
   - bokeh
   - cmocean
   - codecov
+  - cookiecutter
   - coverage
+  - cython 
   - dask
   - dask-jobqueue
   - dask-ml
+  - dask-mpi
   - datashader
   - distributed
   - fastparquet
   - flake8
   - gcsfs
+  - geopandas 
   - geoviews
+  - ghp-import
   - graphviz
   - holoviews
   - hvplot
+  - hyperopt 
   - importnb
   - intake
+  - intake-cmip
   - intake-xarray
   - invoke
+  - ipyleaflet
   - ipywidgets
   - iris 
   - iris-sample-data
+  - isort 
   - jupyter
   - jupyter_contrib_nbextensions
   - jupyter_nbextensions_configurator
   - jupyterhub
   - jupyterlab
+  - kaggle
+  - keras
   - lz4
+  - Markdown
   - matplotlib
   - metakernel
   - mpi4py
@@ -46,14 +60,21 @@ dependencies:
   - nbserverproxy
   - nbsphinx
   - netcdf4
+  - networkxx
   - nodejs
+  - numba 
   - numcodecs
   - numpy
   - numpydoc
   - pandas
+  - panel
+  - pango 
   - papermill
+  - pelican
   - pint
   - pyarrow
+  - pylint
+  - pymc3
   - pytest
   - pytest-cov
   - pytest-cpp
@@ -61,36 +82,54 @@ dependencies:
   - python-blosc
   - python-graphviz
   - python=3.6
+  - pytorch-cpu
   - rasterio
   - recommonmark 
   - s3fs
   - scikit-image
   - scikit-learn
+  - scikit-learn
+  - scikit-plot
   - scipy
+  - scrapy
+  - seaborn
+  - siphon
+  - skorch
   - sphinx
   - sphinx_rtd_theme
+  - tensorboardx
+  - tensorflow 
+  - torch 
+  - torchvision
+  - tpot
+  - tqdm 
   - twine
+  - typogrify
+  - umap-learn
   - unyt 
-  - watermark
   - watermark
   - wheel
   - xarray
+  - xarray-extras
+  - xgboost
   - xo
   - xonsh
   - yt 
   - zarr
-  - xarray-extras
-  - scrapy
-  - cookiecutter
-  - siphon
   - pip:
+     - auto-sklearn
      - bash_kernel
+     - cfgrib
+     - fastai
      - jupyter-repo2docker
      - pandas-profiling
      - pre-commit
      - pre-commit-hooks
-     - sphinx_copybutton
+     - pymc-learn
+     - pyro-ppl
      - pytest-print
+     - sklearn-xarray 
+     - sphinx_copybutton
 #    - kubernetes
 #    - git+https://github.com/dask/dask-kubernetes.git
 #    - git+https://github.com/xgcm/xgcm.git

@@ -112,16 +112,16 @@ dependencies:
   - xonsh
   - yt 
   - zarr
+  - ipyleaflet
+  - msgpack-python
   - pip:
      - bash_kernel
      - blackbook
      - cfgrib
      - fastai
-     - ipyleaflet
      - jupyter-repo2docker
      - kaggle
      - keras 
-     - msgpack-python
      - pandas-profiling
      - pre-commit
      - pre-commit-hooks

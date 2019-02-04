@@ -12,6 +12,7 @@ dependencies:
   - black
   - bokeh
   - cmocean
+  - cudatoolkit==9.2
   - codecov
   - cookiecutter
   - coverage
@@ -95,7 +96,6 @@ dependencies:
   - sphinx
   - sphinx_rtd_theme
   - swig
-  - swig 
   - tensorboardx
   - tensorflow 
   - tpot
@@ -106,8 +106,7 @@ dependencies:
   - unyt 
   - watermark
   - wheel
-  - xarray
-  - xarray-extras
+  - xarray>=0.11.3
   - xgboost
   - xo
   - xonsh
@@ -129,8 +128,5 @@ dependencies:
      - pymc-learn
      - pyro-ppl
      - pytest-print
-     - sklearn-xarray 
      - sphinx_copybutton
-#    - kubernetes
-#    - git+https://github.com/dask/dask-kubernetes.git
-#    - git+https://github.com/xgcm/xgcm.git
+

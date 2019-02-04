@@ -5,7 +5,9 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager \
                              @pyviz/jupyterlab_pyviz \
                              jupyter-leaflet \
                              dask-labextension \
-                             @jupyterlab/toc
+                             @jupyterlab/toc \
+                             jupyter-leaflet 
+                             
 
 
 python -m bash_kernel.install

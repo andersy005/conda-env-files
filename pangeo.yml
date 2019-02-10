@@ -118,6 +118,7 @@ dependencies:
      - bash_kernel
      - blackbook
      - cfgrib
+     - dask_labextension
      - fastai
      - jupyter-repo2docker
      - kaggle

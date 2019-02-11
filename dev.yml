@@ -10,6 +10,7 @@ dependencies:
   - BeautifulSoup4
   - black
   - bokeh
+  - cf_units
   - cmocean
   - codecov
   - cookiecutter
@@ -21,6 +22,7 @@ dependencies:
   - dask-mpi
   - datashader
   - distributed
+  - esmpy
   - fastparquet
   - flake8
   - gcsfs
@@ -30,9 +32,8 @@ dependencies:
   - graphviz
   - holoviews
   - hvplot
-  - intake
-  - intake-cmip
   - intake-xarray
+  - intake>=0.4.1
   - invoke
   - ipywidgets
   - isort 
@@ -46,6 +47,7 @@ dependencies:
   - metakernel
   - mpi4py
   - mpich
+  - msgpack-python
   - nb_conda_kernels
   - nbdime
   - nbserverproxy
@@ -73,7 +75,6 @@ dependencies:
   - python-blosc
   - python-graphviz
   - python=3.6
-  - pytorch-cpu
   - rasterio
   - recommonmark 
   - s3fs
@@ -95,8 +96,8 @@ dependencies:
   - unyt 
   - watermark
   - wheel
-  - xarray
-  - xarray-extras
+  - xarray>=0.11.3
+  - xesmf
   - xgboost
   - xo
   - xonsh
@@ -106,7 +107,6 @@ dependencies:
      - bash_kernel
      - cfgrib
      - jupyter-repo2docker
-     - msgpack-python
      - pre-commit
      - pre-commit-hooks
      - pytest-print

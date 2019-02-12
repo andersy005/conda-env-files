@@ -1,0 +1,34 @@
+name: dask-dev
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy 
+  - pandas 
+  - bcolz 
+  - blosc 
+  - bokeh 
+  - boto3 
+  - botocore 
+  - httpretty 
+  - chest 
+  - cloudpickle 
+  - coverage
+  - cytoolz 
+  - distributed
+  - graphviz
+  - h5py
+  - ipython
+  - lz4 
+  - numba 
+  - partd 
+  - psutil 
+  - pytables
+  - pytest
+  - requests
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - sqlalchemy
+  - toolz
+ 

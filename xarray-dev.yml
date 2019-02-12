@@ -1,4 +1,4 @@
-name: test_env
+name: xarray-dev
 channels:
   - conda-forge
 dependencies:

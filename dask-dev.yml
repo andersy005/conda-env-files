@@ -31,4 +31,6 @@ dependencies:
   - scipy
   - sqlalchemy
   - toolz
- 
+  - pyarrow
+  - fastparquet
+  - s3fs

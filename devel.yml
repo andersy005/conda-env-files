@@ -36,9 +36,6 @@ dependencies:
   - invoke
   - ipywidgets
   - isort 
-  - jupyter
-  - jupyter_contrib_nbextensions
-  - jupyter_nbextensions_configurator
   - jupyterlab
   - lxml
   - lz4

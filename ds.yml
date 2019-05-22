@@ -2,15 +2,19 @@ name: ds
 channels:
   - conda-forge
 dependencies:
-  - python=3.7
-  - pandas
-  - hvplot
-  - holoviews
-  - watermark
-  - ipywidgets
-  - scikit-learn
+  - black
   - dask
   - distributed
+  - holoviews
+  - hvplot
+  - ipywidgets
+  - jupyterlab
   - matplotlib
+  - pandas
+  - pip 
   - pytest
-  
+  - python=3.7
+  - scikit-learn
+  - watermark
+  - pip:
+      - nb_black

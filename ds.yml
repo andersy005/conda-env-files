@@ -16,5 +16,8 @@ dependencies:
   - python=3.7
   - scikit-learn
   - watermark
+  - jupyter_nbextensions_configurator
+  - jupyter_contrib_nbextensions
+  - nodejs 
   - pip:
       - nb_black

@@ -1,0 +1,16 @@
+name: ds 
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pandas
+  - hvplot
+  - holoviews
+  - watermark
+  - ipywidgets
+  - scikit-learn
+  - dask
+  - distributed
+  - matplotlib
+  - pytest
+  

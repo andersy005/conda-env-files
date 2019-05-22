@@ -1,0 +1,13 @@
+name: ncl 
+channels:
+  - conda-forge
+dependencies:
+  - python=2.7
+  - ipykernel
+  - pytest
+  - xarray
+  - netcdf4
+  - nco
+  - pexpect == 4.1
+  - pip:
+    - git+https://github.com/suvarchal/IPyNCL.git

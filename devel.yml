@@ -28,15 +28,18 @@ dependencies:
   - flake8
   - gcsfs
   - geopandas 
+  - geoviews
   - graphviz
   - h5netcdf
   - h5py
+  - holoviews
+  - hvplot
   - intake
   - intake-xarray
   - invoke
   - ipywidgets
   - isort 
-  - jupyterlab
+  - jupyterlab==0.35
   - lxml
   - lz4
   - matplotlib
@@ -93,7 +96,6 @@ dependencies:
   - swig 
   - tiledb-py
   - toolz
-  - toolz
   - tqdm 
   - twine
   - typogrify
@@ -113,3 +115,4 @@ dependencies:
      - pre-commit
      - pytest-print
      - sphinx_copybutton
+     - jupyter-book
